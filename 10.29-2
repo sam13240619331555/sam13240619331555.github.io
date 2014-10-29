@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">益毛好帥</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOi4O_exOI-JBXcEBhM_K8AjLg3AAvBFNtixNsDblISiGsNaGM"></img></li>
+          <li><a href="#">二毛好帥</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+	<div class="container">
+		
+		
+		<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">big head so fat hahahahhaha</div>
+  <div class="panel-body">
+     </div>
+
+  <!-- Table -->
+  <table class="table">
+    <table class="table">
+			<tr>
+				<th>XOR</th>
+				<th>TRUE</th>
+				<th>FALSE</th>
+			</tr>
+			<tr>
+				<th class="info">TRUE</th>
+				<td>FALSE</td>
+				<td>TRUE</td>
+			</tr>
+			<tr>
+				<th class="info">FALSE</th>
+				<td>TRUE</td>
+				<td>FALSE</td>
+			</tr>
+		</table>
+  </div>
+
+
+
+		
+		<ol>
+		<li>1.gfdgsdfgsdfgsdf</li>
+		<li>2.htrshrterh</li>
+		<li>3.htrhrejujkty</li>
+		</ol>
+	</div>
+  
+  <div class="container">
+
+  	 <div class="panel panel-primary">134567</div>
+  	 <div class="panel panel-success">7654321</div>
+  	 <div class="panel panel-warning">hello big head</div>
+  	 <div class="panel panel-danger">so hungry</div>
+  	 <div class="panel panel-info">雞腿排蛋餅</div>
+
+
+  	 <h1 class="container-center"><span class="glyphicon glyphicon-cloud-upload"></span> 施益豪好帥</h1>
+  	<h2 class="container-center"> 大頭好 <span class="glyphicon glyphicon-header"></span>   <span class="glyphicon glyphicon-fullscreen"></span></h1>
+  	<mark><p>向果統四的狀！大放準公論不四作就華傷成社，四文大從提求全不辦一日；上緊為；曾可冷西開關是生很容小育導地我女一她樂我！</p>
+  		
+  			<p>看中麼半乎話經管劇是此起大家投？引室型收，部政道子完快獎於。</p>
+  			<p>任切驗舉。通年有們也後的們軍有大飯邊土出者作：天公東前報學當世力山前基家了人！調能會。活大存出，連那改勢權衣也；感西如把……黑們性成生院。如小政奇給、我當營媽有河還半和不會部臺力裡。學到童同出外藥們令下他市評念謝告感晚，道展立可物在庭，題他界長女運。媽受以！識河未臺工。</p>
+  			<p>已這新麼？社看心裡有題四最技不：導經業等。</p>
+  		
+  			<p>談學故；里易體上簡之、來去值利存？領物心計：合常子精走錢話心小非了，後到解下快公的以北合心須去行這型學起影新出，講年義小於客類濟約興自因政資要人！林的步的，東活商回然日子行，十自手容長沒英就為體年率、大可生優義好且成，市物到事今香外陽今有自星有筆它黨。</p>
+  		
+  			<p>只銷失到細出：步麼海著你的制百所、保後級就小害輕金速自，下師灣到……三了速走是天地的市子會打對看有天八；服加何規百者被；當產起支的來經此我不可生校起大天重。</p></small>打對看有天八；服加何規百者被；當產起支的來經此我不可生校起大天重。</p>
+  	</mark>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  </body>
+</html>
