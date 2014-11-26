@@ -1,396 +1,574 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A free one page Bootstrap portfolio theme for agencies. All Start Bootstrap templates are free to download and open source.">
-<meta name="author" content="Start Bootstrap">
+<html lang="en">
 
-<title>
-  
-    Agency - One Page Bootstrap Theme - Start Bootstrap
-  
-</title>
+<head>
 
-<!-- Google+ Authorship Information -->
-<link rel="author" href="https://plus.google.com/+Startbootstrap">
-<link rel="publisher" href="https://plus.google.com/+Startbootstrap">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Canonical -->
-<link rel="canonical" href="http://startbootstrap.com/template-overviews/agency/">
+    <title>Agency - Start Bootstrap Theme</title>
 
-<!-- Fav Icon and Apple Touch Icons -->
-<link rel="icon" href="/assets/img/ico/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="/assets/img/ico/touch-icon-iphone.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/ico/touch-icon-ipad.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/ico/touch-icon-iphone-retina.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/ico/touch-icon-ipad-retina.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Agency - One Page Bootstrap Theme">
-<meta property="og:site_name" content="Start Bootstrap">
-<meta property="og:type" content="website">
-<meta property="og:description" content="A free one page Bootstrap portfolio theme for agencies. All Start Bootstrap templates are free to download and open source.">
-<meta property="og:image" content="http://startbootstrap.com/assets/img/og/startbootstrap-logo.jpg">
-<meta property="og:url" content="http://startbootstrap.com/template-overviews/agency/">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
-<!-- Fonts -->
-<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700" rel="stylesheet" type="text/css">
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<!-- Bootstrap Core CSS -->
-<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!-- Start Bootstrap Custom CSS -->
-<link href="/assets/css/startbootstrap.css" rel="stylesheet" type="text/css">
+</head>
 
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.zh_TW.c_FSkid8gKw.O/m=auth/exm=follow,plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMpHCAJioKTGoYDGN5djDDiR9HvAQ/cb=gapi.loaded_1" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.zh_TW.c_FSkid8gKw.O/m=follow,plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMpHCAJioKTGoYDGN5djDDiR9HvAQ/cb=gapi.loaded_0" async=""></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://apis.google.com/js/platform.js" gapi_processed="true"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" async="" src="//startbootstrap.disqus.com/embed.js"></script><script id="_carbonads_projs" type="text/javascript" src="//srv.carbonads.net/ads/C6AILKT.json?segment=placement:startbootstrapcom&amp;callback=_carbonads_go"></script><style>.carbonad{display:block;background:#fdfdfd;background-image:-moz-linear-gradient(top,#f8f8f8,#fdfdfd);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f8f8f8),color-stop(1,#fdfdfd));border:1px solid #d5d5d5;font-family:Lucida Grande,Arial,Helvetica,sans-serif;font-size:11px;height:118px;line-height:15px;overflow:hidden;width:300px}.carbonad-img{border:none;display:inline;float:left;height:100px;margin:9px;width:130px}.carbonad-text{display:inline;float:left;width:142px;padding-top:13px}.carbonad-text a{color:#000;text-decoration:none;text-transform:none;}.carbonad-tag{float:left;margin-top:9px;text-align:center;width:142px;color:#999}.carbonad-tag a{color:#999;text-decoration:none}</style></head>
+<body id="page-top" class="index">
 
-<body data-twttr-rendered="true">
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Start Bootstrap</a>
-        </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">start</a>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Our Collection of Templates &amp; Themes">Themes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/template-categories/all"><i class="fa fa-globe fa-fw"></i> All Templates &amp; Themes</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/popular"><i class="fa fa-star fa-fw"></i> Most Popular</a>
-                        </li>
-                        <li>
-                            <a href="/buy-bootstrap-templates"><i class="fa fa-shopping-cart fa-fw"></i> Buy Bootstrap Templates</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">
-                            Template &amp; Theme Categories:
-                        </li>
-                        <li>
-                            <a href="/template-categories/admin-dashboard">Admin and Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/full-websites">Full Websites</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/landing-pages">Landing Pages</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/one-page">One Page Websites</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/portfolios">Portfolios</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/blogs">Blogs</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/ecommerce">Ecommerce</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/unstyled">Unstyled Starter Templates</a>
-                        </li>
-                        <li>
-                            <a href="/template-categories/navigation-menus">Navigation and Navbars</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="http://startbootstrap.tumblr.com/" title="The Official Start Bootstrap Blog">Blog</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Bootstrap Related Resources">Resources <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/bootstrap-resources"><i class="fa fa-list fa-fw"></i> Bootstrap Resources List</a>
-                        </li>
-                        <li>
-                            <a href="/showcase"><i class="fa fa-desktop fa-fw"></i> Start Bootstrap Showcase</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="/help" title="Help with Start Bootstrap Templates &amp; Themes">Help</a>
-                </li>
-                <li>
-                    <a href="/contact" title="Contact the Start Bootstrap Team">Contact</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Premium Bootstrap Themes &amp; Templates"><i class="fa fa-star text-yellow"></i> Premium <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/bootstrap-design-services">Custom Bootstrap Design Services</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">
-                            Premium Bootstrap Theme Marketplaces:
-                        </li>
-                        <li>
-                            <a href="http://designmodo.com/shop/?u=787">Designmodo - Premium Bootstrap Frameworks</a>
-                        </li>
-                        <li>
-                            <a href="https://wrapbootstrap.com/?ref=StartBootstrap">WrapBootstrap - Premium Bootstrap Themes</a>
-                        </li>
-                        <li>
-                            <a href="http://themeforest.net/attributes/compatible-with/Bootstrap%203.x?category=site-templates&amp;direction=desc&amp;order_by=sales&amp;utf8=%E2%9C%93?ref=IronSummitMedia">ThemeForest - Premium Bootstrap Themes</a>
-                        </li>
-                        <li>
-                            <a href="http://gridgum.com?affiliates=29">Gridgum - Premium Bootstrap Themes</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-
-<header class="sb-page-header">
-	<div class="container">
-		<h1>Agency</h1>
-		<p>A clean, stylish, one page Bootstrap portfolio theme perfect for your agency or small business.</p>
-		<div id="carbonads-container">
-    <div class="carbonad">
-        <div id="azcarbon"><span><span class="carbonad-image"><a href="http://srv.carbonads.net/ads/click/x/GTND423JCAYDT23YCTS4YKQWC6SITKQLCKADKZ3JCEYI5K3JCYYD6KJKC6BD427ECT7I6K3EHJNCLSIZ?segment=placement:startbootstrapcom" target="_blank"><img width="130" height="100" border="0" src="//assets.servedby-buysellads.com/p/manage/asset/id/18450" class="carbonad-image carbonad-img"></a></span><span class="carbonad-text"><a href="http://srv.carbonads.net/ads/click/x/GTND423JCAYDT23YCTS4YKQWC6SITKQLCKADKZ3JCEYI5K3JCYYD6KJKC6BD427ECT7I6K3EHJNCLSIZ?segment=placement:startbootstrapcom">Say goodbye to email, to-do lists, calendars &amp; notepads. And say hello to Asana.</a></span><span class="carbonad-tag">ads via <a href="http://carbonads.com">Carbon</a></span></span></div>
-        <script type="text/javascript" async="" src="http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"></script><script type="text/javascript">
-        var z = document.createElement("script");
-        z.type = "text/javascript";
-        z.async = true;
-        z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(z, s);
-        </script>
-    </div>
-</div>
-
-	</div>
-</header>
-
-<!-- Page Content -->
-<div class="container">
-	<ol class="breadcrumb">
-		<li><a href="/index.html">Start Bootstrap</a></li>
-		<li><a href="/template-categories/all">Templates</a></li>
-		<li class="active">Agency</li>
-	</ol>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-7 col-md-6 preview-page-window">
-			<a target="_blank" title="View Live Preview" href="http://ironsummitmedia.github.io/startbootstrap-agency/" class="thumbnail">
-				<img src="/assets/img/templates/agency.jpg" class="img-responsive" alt="Free Bootstrap 3 Themes and Templates">
-			</a>
-			<ul class="list-inline">
-			    <li>
-			        <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&amp;repo=startbootstrap-agency&amp;type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
-			    </li>
-			    <li>
-			        <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&amp;repo=startbootstrap-agency&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
-			    </li>
-			    <li>
-			        <iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.9102a02e4157727d5d33e448662f9063.en.html#_=1417003891162&amp;id=twitter-widget-2&amp;lang=en&amp;screen_name=SBootstrap&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 139px; height: 20px;"></iframe>
-			    </li>
-			    <li>
-			        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/tweet_button.2dbfc52aff624254c17d0ae518d60e15.en.html#_=1417003891162&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fstartbootstrap.com%2Ftemplate-overviews%2Fagency%2F&amp;size=m&amp;text=Agency%20-%20One%20Page%20Bootstrap%20Theme%20-%20Start%20Bootstrap&amp;url=http%3A%2F%2Fstartbootstrap.com%2Ftemplate-overviews%2Fagency%2F&amp;via=SBootstrap" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 116px; height: 20px;"></iframe>
-			    </li>
-			</ul>
-			<ul class="list-inline preview-links">
-				<li><a target="_blank" href="http://ironsummitmedia.github.io/startbootstrap-agency/" class="btn btn-default"><i class="fa fa-eye"></i> Live Preview</a></li>
-				<li><a href="https://github.com/IronSummitMedia/startbootstrap-agency/archive/v1.0.0.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a></li>
-				<li><a href="https://github.com/IronSummitMedia/startbootstrap-agency" class="btn btn-default"><i class="fa fa-github"></i> View Source on GitHub</a></li>
-			</ul>
-			
-			
-			<h4>User Contributed Versions:</h4>
-			<ul class="list-inline preview-links">
-				<p class="small"><i class="fa fa-warning"></i> User contributed versions of our templates may be licensed differently and are not created, supported, or updated by Start Bootstrap. For support and license information on these versions, please contact the creator.</p>
-				
-				
-				
-				<li><a class="btn btn-default" href="https://github.com/y7kim/agency-jekyll-theme"><i class="fa fa-flask"></i> Jekyll Version</a></li>
-				
-				
-				
-				<li><a class="btn btn-default" href="https://github.com/sysgears/grain-theme-agency"><i class="fa fa-github"></i> Grain Version</a></li>
-				
-				
-				
-				
-			</ul>
-			
-			<h4>License &amp; Author Details:</h4>
-			<p>
-				<a href="https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE">Apache 2.0</a> by <a href="http://startbootstrap.com">Start Bootstrap</a>
-				<br>
-				
-			</p>
-			<hr class="small">
-			<h4>Theme Comments:</h4>
-			<div id="disqus_thread"><iframe id="dsq-2" data-disqus-uid="2" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="http://disqus.com/embed/comments/?base=default&amp;disqus_version=3dde301a&amp;f=startbootstrap&amp;t_u=http%3A%2F%2Fstartbootstrap.com%2Ftemplate-overviews%2Fagency%2F&amp;t_d=Agency%20-%20One%20Page%20Bootstrap%20Theme%20-%20Start%20Bootstrap&amp;t_t=Agency%20-%20One%20Page%20Bootstrap%20Theme%20-%20Start%20Bootstrap&amp;s_o=default#2" style="width: 100% !important; border: none !important; overflow: hidden !important; height: 7256px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe><iframe id="dsq-indicator-north" data-disqus-uid="indicator-north" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" style="width: 653px !important; border: none !important; overflow: hidden !important; top: 0px !important; min-width: 653px !important; max-width: 653px !important; position: fixed !important; z-index: 2147483646 !important; height: 29px !important; min-height: 29px !important; max-height: 29px !important; display: none !important;"></iframe><iframe id="dsq-indicator-south" data-disqus-uid="indicator-south" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" style="width: 653px !important; border: none !important; overflow: hidden !important; bottom: 0px !important; min-width: 653px !important; max-width: 653px !important; position: fixed !important; z-index: 2147483646 !important; height: 29px !important; min-height: 29px !important; max-height: 29px !important; display: none !important;"></iframe></div>
-<script type="text/javascript">
-    var disqus_shortname = 'startbootstrap';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
-
-		</div>
-		<div class="col-lg-5 col-md-6 preview-page-content">
-			<h4>Description:</h4>
-<p>Agency is a stylish, one page Bootstrap theme for agencies and small businesses. The design of Agency is based off of the Golden PSD Theme by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. You can download the PSD verison of this theme at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-
-<h4>Features:</h4>
-<ul>
-    <li>Fully responsive</li>
-    <li>Custom collapsing navigation with active classes, smooth page scrolling, and responsive fallback stylings</li>
-    <li>Services section with CSS only circle icons by Font Awesome</li>
-    <li>Portfolio grid with modal window popup previews for portfolio item details</li>
-    <li>About section with a responsive timeline, special thanks to <a href="http://bootsnipp.com/">Bootsnipp</a></li>
-    <li>Team member section with circle profile images and social media links</li>
-    <li>Working PHP contact form with validation - just add your email address to the PHP file included</li>
-    <li>Footer with social links, copyright information, and other links</li>
-    <li>LESS files included for deeper customization options</li>
-</ul>
-
-<h4>Similar Themes &amp; Templates:</h4>
-<div class="row">
-    <div class="col-xs-4">
-        <a href="/template-overviews/freelancer" title="Freelancer - One Page Theme" class="thumbnail"><img src="/assets/img/templates/freelancer.jpg" class="img-responsive" alt="Free One Page Freelancer Bootstrap 3 Theme"></a>
-    </div>
-    <div class="col-xs-4">
-        <a href="/template-overviews/grayscale" title="Grayscale - One Page Theme" class="thumbnail"><img src="/assets/img/templates/grayscale.jpg" class="img-responsive" alt="Free One Page Theme for Bootstrap 3"></a>
-    </div>
-    <div class="col-xs-4">
-        <a href="/template-overviews/landing-page" title="Landing Page - Landing Page Theme" class="thumbnail"><img src="/assets/img/templates/landing-page.jpg" class="img-responsive" alt="Free Bootstrap 3 Landing Page Theme"></a>
-    </div>
-</div>
-			<h4>Tags:</h4>
-			<ul class="list-inline list-tags">
-				
-				<li><a href="/template-categories/landing-pages" class="btn btn-xs btn-primary">landing-pages</a></li>
-				
-				<li><a href="/template-categories/one-page" class="btn btn-xs btn-primary">one-page</a></li>
-				
-				<li><a href="/template-categories/portfolios" class="btn btn-xs btn-primary">portfolios</a></li>
-				
-			</ul>
-			<p>Please visit our <a href="/bootstrap-resources">resources page</a> for design ideas and our <a href="/help">help page</a> if you need assistance with this theme.</p>
-			<h4>Special Hosting Offer:</h4>
-			<p class="hosting-offer">Need hosting for your new website? <a href="http://hostoople.com/1/166.html"><img src="/assets/img/hostoople-logo.png" alt="Hostoople Logo"></a> has plans starting at $3.95/month! Use the coupon code "<strong>bootstrap</strong>" to save 20%!</p>
-			<a href="http://hostoople.com/1/166.html" class="btn btn-primary btn-xs"><i class="fa fa-chevron-circle-right"></i> See Hosting Plans!</a>
-		</div>
-	</div>
-</div>
-
-<!-- Footer -->
-<div class="cta-mail">
-    <div class="container text-center">
-        <h2>Want more Bootstrap themes &amp; templates?</h2>
-        <h4>Subscribe to our mailing list to receive an update when new items arrive!</h4>
-        <div id="mc_embed_signup">
-            <form role="form" action="http://startbootstrap.us3.list-manage1.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-                <div class="input-group input-group-lg">
-                    <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
-                    <span class="input-group-btn">
-                        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Subscribe!</button>
-                    </span>
-                </div>
-                <div id="mce-responses">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-            </form>
-        </div>
-        <!-- End MailChimp Signup Form -->
-    </div>
-</div>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 footer-left">
-                <ul class="list-inline">
-                    <li>
-                        <a href="/">Home</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="/all-templates">Themes</a>
+                        <a class="page-scroll" href="#services">Introduction</a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="http://startbootstrap.tumblr.com/">Blog</a>
+                        <a class="page-scroll" href="#team">Goodday</a>
                     </li>
                     <li>
-                        <a href="/bootstrap-resources">Resources</a>
-                    </li>
-                    <li>
-                        <a href="/help">Help</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <p>
-                    <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&amp;repo=startbootstrap&amp;type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
-                    <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&amp;repo=startbootstrap&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
-                    <iframe id="twitter-widget-3" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.9102a02e4157727d5d33e448662f9063.en.html#_=1417003891178&amp;id=twitter-widget-3&amp;lang=en&amp;screen_name=SBootstrap&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 139px; height: 20px;"></iframe>
-                    <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/tweet_button.2dbfc52aff624254c17d0ae518d60e15.en.html#_=1417003891162&amp;count=horizontal&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fstartbootstrap.com%2Ftemplate-overviews%2Fagency%2F&amp;size=m&amp;text=Agency%20-%20One%20Page%20Bootstrap%20Theme%20-%20Start%20Bootstrap&amp;url=http%3A%2F%2Fstartbootstrap.com&amp;via=SBootstrap" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 116px; height: 20px;"></iframe>
-                    <br>
-                    <div id="___follow_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 146px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 146px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1417003891131" name="I0_1417003891131" src="https://apis.google.com/_/widget/render/follow?usegapi=1&amp;annotation=bubble&amp;height=20&amp;rel=publisher&amp;origin=http%3A%2F%2Fstartbootstrap.com&amp;url=http%3A%2F%2Fplus.google.com%2F116841216196186745329&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.zh_TW.c_FSkid8gKw.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCMpHCAJioKTGoYDGN5djDDiR9HvAQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1417003891131&amp;parent=http%3A%2F%2Fstartbootstrap.com&amp;pfname=&amp;rpctoken=11661180" data-gapiattached="true"></iframe></div>
-                    <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I1_1417003891131" name="I1_1417003891131" src="https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;origin=http%3A%2F%2Fstartbootstrap.com&amp;url=http%3A%2F%2Fstartbootstrap.com%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.zh_TW.c_FSkid8gKw.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCMpHCAJioKTGoYDGN5djDDiR9HvAQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I1_1417003891131&amp;parent=http%3A%2F%2Fstartbootstrap.com&amp;pfname=&amp;rpctoken=36794795" data-gapiattached="true" title="+1"></iframe></div>
-                    <br>
-                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FIronSummitMedia&amp;width=450&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowtransparency="true"></iframe>
-                </p>
             </div>
-            <div class="col-md-6 footer-right">
-                <p><a href="http://www.startbootstrap.com">Start Bootstrap</a> is a project maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a>.</p>
-                <p>Bootstrap CDN by <a href="http://tracking.maxcdn.com/c/99191/3982/378"><img src="/assets/img/maxcdn-logo.png" alt="MaxCDN Logo"></a></p>
-                <p>Hosted on <a href="https://pages.github.com/"><img src="/assets/img/gh-pages-logo.png" alt="GitHub Pages Logo"></a></p>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome !</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12 footer-below">
-                <p>Themes and templates licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>.
-                <br>Based on <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <h3 class="section-subheading text-muted">hello~hello~</h3>
+                </div>
+            </div>
+
+            <div class="text-vertical-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">this is me hahahaha</h4>
+                    
+                </div>
+               
+            </div>
+             <div class="text-vertical-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">this is me hahahaha</h4>
+                    
+                </div>
+               
+            </div>
+             <div class="text-vertical-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">this is me hahahaha</h4>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1994</h4>
+                                    <h4 class="subheading">born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">form Taiwan</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2011</h4>
+                                    <h4 class="subheading">university</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">freshman/p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4> 2012</h4>
+                                    <h4 class="subheading">university</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">sophmore</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2014</h4>
+                                    <h4 class="subheading">now</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">yo~</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Amazing </h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="http://www.nchu.edu.tw/upfile/editor/images/introduction-pic31.jpg" class="img-responsive img-circle" alt="">
+                        
+                        
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/123.jpg" class="img-responsive img-circle" alt="">
+                        <h4>sam</h4>
+                        
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+<div class="col-sm-4">
+                    <div class="team-member">
+                        <img src=https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR31dos58cdFcJERR2i9PHH-aU3nfBwoFM9NBCBgqX95kVm5jVTDQ class="img-responsive img-circle" alt="">
+                        <h4>zzsh</h4>
+                        
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</footer>
 
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Heading</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="/assets/js/docs.js"></script>
-<script src="/assets/js/startbootstrap.js"></script>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<iframe name="oauth2relay540116146" id="oauth2relay540116146" src="https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fstartbootstrap.com#rpctoken=530180342&amp;forcesecure=1" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
